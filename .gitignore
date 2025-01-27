@@ -1,0 +1,13 @@
+todo.txt 
+Models/__pycache__/
+COProblems/__pycache__/
+__pycache__/
+Graphs/
+HPC/model/
+COProblems/NO/
+HPC/data/save/
+HPC/data/exp_paper_do_retrain.pt
+HPC/data/exp_paper_do_test.pt
+HPC/data/exp_paper_doewc_retrain.pt
+HPC/data/exp_paper_doewc_test.pt
+HPC/data/heavy_experiments.zip

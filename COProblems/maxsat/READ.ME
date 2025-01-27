@@ -1,0 +1,28 @@
+The instances in this directory were used in the computational
+experiments of the paper "Approximate solution of weighted MAX-SAT
+problems using GRASP," by M.G.C. Resende, L.S. Pitsoulis, and
+P.M. Pardalos (1996).
+
+The problems are generated from the jnh SAT problem class of the 2nd
+DIMACS Implementation Challenge by randomly generating clause weights
+uniformly between 1 and 1000.
+
+Each file starts with a line with number of variables and number of
+clauses.
+Each clause is represented by one or more lines.  Given are the
+number of variables in the clause, the clause weight, and for
+each variable in the clause, its index (positive if variable is
+unnegated, negative if variable is negated.
+
+Example:  The MAX-SAT instance
+
+not(x1) or x2        (w1 = 10)
+x1 or not(x3) or x4  (w2 = 20)
+x4                   (w3 = 25)
+
+is represented as follows:
+
+3 4
+2 10 -1 2
+3 20 1 -3 4
+1 25 4
